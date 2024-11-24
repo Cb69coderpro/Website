@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esdoornworst Pizza Stand</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Esdoornworst Pizza Stand</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Esdoornworst Pizza Stand! Here, we bring you the best savory pizzas made with traditional fry bread dough, topped with original and creative ingredients. Our signature toppings include the maple-inspired Esdoornworst sausage and many more unique flavor combinations.</p>
+            <p>Our mission is to offer delicious, locally-inspired food, made with care, and infused with indigenous love.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="pizza-item">
+                <h3>Savory BeaverTail Pizza</h3>
+                <p>Made with traditional fry bread dough, savory tomato sauce, and a mix of melted cheeses like mozzarella, havarti, and gruyère. Add your favorite toppings!</p>
+                <ul>
+                    <li>Caramelized Onions and Blue Cheese</li>
+                    <li>Roasted Garlic and Mushrooms</li>
+                    <li>Prosciutto and Arugula</li>
+                    <li>Fig and Bacon</li>
+                    <li>BBQ Pulled Pork and Pineapple</li>
+                    <li>Eggplant and Tahini Sauce</li>
+                </ul>
+                <p>All topped with our signature Esdoornworst sausage and a hint of maple flavor!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Want to learn more about our pizza stand or get in touch for an event? Send us a message!</p>
+            <form action="mailto:youremail@domain.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Esdoornworst Pizza Stand. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
